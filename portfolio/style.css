@@ -1,0 +1,56 @@
+:root{
+    --black:#14140F;
+    --blue-green:#053D38;
+    --breeze:#34675C;
+    --green:#A3CCAB;
+    --orange:#F26800
+}
+
+*{
+    box-sizing: border-box;
+}
+
+*, ::before,::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    color: var(--green)
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+#intro {
+    line-height: 1.5;
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+p span{
+    display: block;
+    color: white;
+    font-size: 4rem;
+}
+#experience ul{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+#experience li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+#hire {
+    background-color: var(--breeze);
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
