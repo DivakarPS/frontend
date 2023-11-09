@@ -1,0 +1,71 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after,::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.linkedIn-card{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+
+.line{
+    margin: 0 50px;
+}
+
+.content{
+    width: 150px;
+    height: 200px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.card-icons{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.like{
+    display: flex;
+    width: 25%;
+}
+
+.comment{
+    display: flex;
+    width: 25%;
+}
+
+.repost{
+    display: flex;
+    width: 25%;
+}
+.share{
+    display: flex;
+    width: 25%;
+}
+
+.card-icons div:hover{
+    background-color: lightgray;
+    transition-duration: 0.02s;
+    border-radius: 3px;
+    box-shadow: 1px;
+}
+
+.b1{
+    margin: 0 auto;
+    padding: 10px;
+}
