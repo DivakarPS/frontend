@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
     color: var(--green);
     font-size: 1.5rem;
+    padding: 4rem 1rem 5rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 p span{
@@ -61,7 +64,8 @@ p span{
 
 nav {
     font-size: 80%;
-    padding: 1rem;
+    padding: 1rem; 
+    background-color: var(--breeze);
 }
 
 nav ul{
@@ -71,7 +75,8 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem
+    gap: 2rem;
+    margin-right:2rem;
 }
 
 nav a{
@@ -80,11 +85,72 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: var(--breeze);
+    color: black;
     text-decoration: underline;
     font-size: 1.2rem;
 }
 
 nav li:first-child{
     flex-grow: 1;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.button{
+    background-color: orangered;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: white;
+    padding: 0.5rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,93,60,1) 88%, rgba(0,212,255,1) 100%);;
+}
+
+#experience a{
+    color: azure;
+}
+
+.gradient-section{
+    height:2px;
+    background-color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,243,244,1) 43%);;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.my-pic{
+    max-width: 350px;
+    max-height: 700px;
+}
+
+#experience ul{
+    max-width: 500px;
+    border: solid 2px white;
+    background-color: var(--breeze);
+    border-radius: 5px;
+}
+
+.my-pic img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+#experience{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#experience-header {
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 200px;
+    padding: 1rem;
 }
