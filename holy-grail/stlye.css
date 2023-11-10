@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+*,::after,::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    background-color: orange;
+}
+
+.header > h2{
+    text-align: center;
+}
+
+.content{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.center{
+    background-color: aqua;
+    height:100px;
+    width: 100%;
+}
+.footer{
+    height: 1000px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.right{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}

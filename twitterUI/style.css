@@ -1,0 +1,98 @@
+html{
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+*, ::after,::before{
+    box-sizing: inherit;
+}
+
+.twitter{
+    background-color: #fff;
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+    padding: 12px;
+    width: 600px;
+    margin: 0 auto;
+    /* display: inline; */
+}
+img{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+.name{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+}
+
+.profile-pic{
+    margin: 12px;
+}
+.details{
+    display: flex;
+    margin-top: 5px;
+}
+
+.meta-data{
+    margin-left: 4px;
+    color: #71767b;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.message p{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+}
+.filler{
+    width: 48px;
+}
+
+.icons img{
+    width: 16px;
+    height: 16px;
+    color: #536471;
+}
+
+.icons span{
+    color: #536471;
+    font-size: 13px;
+}
+
+.footer div{
+    display: flex;
+}
+.icons{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons span{
+    margin-left: 12px;
+}
+.filler{
+    width: 48px;
+    margin: 12px;
+}
+
+.share{
+    margin-right: 50px;
+}
+
+

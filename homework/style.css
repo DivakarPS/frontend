@@ -60,7 +60,7 @@ img{
 
 .card-icons div:hover{
     background-color: lightgray;
-    transition-duration: 0.02s;
+    transition-duration: 0.3s;
     border-radius: 3px;
     box-shadow: 1px;
 }
