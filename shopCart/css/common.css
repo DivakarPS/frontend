@@ -21,6 +21,8 @@ html{
 #header{
     background-color: var(--blue-gray);
     padding: 1.25rem;
+    position: sticky;
+    top: 0;
 }
 
 #header .header-wrapper .logo{

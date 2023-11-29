@@ -10,7 +10,7 @@
 
 .product-list-sidebar{
     margin-right: 100px;
-    flex-basis: 35%;
+    flex-basis: 40%;
 }
 
 .product-list-sidebar a{
@@ -20,6 +20,7 @@
    color: black;
    border-bottom: 1px solid var(--light-blue);
    background-color: var(--sky-blue);
+   min-width: 150px;
 }
 
 .product-list-sidebar a:last-child{
